@@ -1,0 +1,22 @@
+{
+  "name": "egghead-recompose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src/index.jsx --watch --out-file src/index.js --source-maps"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "react",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0"
+  }
+}
